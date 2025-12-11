@@ -17,7 +17,7 @@ services:
       build:
         context: .
         args:
-          VITE_BACKEND_URL: https://supreme-space-pancake-7v779qw74jwv2v5w-3001.app.github.dev/api/v1
+          VITE_BACKEND_URL: https://refactored-guide-r477g9w7v64wcwjj6-3001.app.github.dev/api/v1
       ports:
         - '3000:80'
       depends_on:
